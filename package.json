@@ -1,0 +1,23 @@
+{
+  "name": "cli-packages",
+  "version": "1.0.0",
+  "description": "Names of all npm packages that have a command-line interface. Sorted by download count, descending.",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/cli-packages",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js > index.json",
+    "release": "scripts/release.sh",
+    "test": "mocha && standard"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "download-counts": "^1.19.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "ora": "^1.1.0",
+    "package-stream": "^2.0.0",
+    "standard": "^8.6.0"
+  }
+}
