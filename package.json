@@ -1,6 +1,6 @@
 {
   "name": "cli-packages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Names of all npm packages that have a command-line interface. Sorted by download count, descending.",
   "main": "index.js",
   "repository": "https://github.com/nice-registry/cli-packages",
