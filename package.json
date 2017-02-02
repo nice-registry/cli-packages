@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Names of all npm packages that have a command-line interface. Sorted by download count, descending.",
   "main": "index.js",
-  "repository": "https://github.com/zeke/cli-packages",
+  "repository": "https://github.com/nice-registry/cli-packages",
   "author": "Zeke Sikelianos <zeke@sikelianos.com>",
   "license": "MIT",
   "scripts": {
