@@ -11,9 +11,12 @@ yarn add cli-packages
 ## Usage
 
 ```js
-repos = require('cli-packages')
+const names = require('cli-packages')
 
-repos.slice(0, 10)
+names.length
+// 47663
+
+names.slice(0, 10)
 // [
 //   'mkdirp',
 //   'semver',
