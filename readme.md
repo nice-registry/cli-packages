@@ -37,6 +37,10 @@ names.slice(0, 10)
 yarn && yarn test
 ```
 
+## See also
+
+- [all-the-clis](https://github.com/nice-registry/all-the-clis): A list of all command line executables in npm, mapping to the packages which supply them.
+
 ## License
 
 MIT
